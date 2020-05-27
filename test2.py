@@ -4,6 +4,7 @@ from json import dumps
 from threading import Thread
 
 
+
 def main():
     # 自定义线程类
     class FileTransferHandler(Thread):
