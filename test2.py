@@ -39,7 +39,7 @@ def main():
         client, addr = server.accept()
         # 启动一个线程来处理客户端的请求
         FileTransferHandler(client).start()
-
+# going forward yes
 
 if __name__ == '__main__':
     main()
